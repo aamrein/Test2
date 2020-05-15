@@ -34,8 +34,7 @@ public class Main extends Application {
         root.setCenter(createCanvasStack(scene));
         root.setTop(createMenuBar());
 
-
-        primaryStage.setTitle("Canvas");
+        primaryStage.setTitle("Paint");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
